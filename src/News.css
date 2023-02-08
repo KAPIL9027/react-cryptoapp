@@ -1,0 +1,25 @@
+.newsDiv
+{
+    background-color: white;
+    margin: 15px;
+    padding: 2%;
+    border: 6px solid white;
+    transition: border-color 0.4s ease-in;
+}
+
+#source
+{
+    color: #C00524;
+    font-family: 'Beau Rivage', cursive;
+    font-size: 25px;
+}
+#title
+{
+    font-size:35px;
+    
+}
+.newsDiv:hover
+{
+    border-color: rgb(8, 137, 181);
+    
+}

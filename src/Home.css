@@ -1,0 +1,48 @@
+body
+{
+    margin:0;
+    padding:0;
+    background-image: url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-position:center;
+    background-size:cover;
+}
+
+h1
+{
+    color:rgb(8, 185, 100);
+    font-size: 2.3rem;
+    
+    padding: 2.5rem;
+}
+.stats
+{
+    color: white;
+    font-size: 1.7rem;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 20%;
+    padding: 2.5rem;
+}
+
+*::before,*::after
+{
+    margin:0;
+    padding:0;
+}
+
+#stats
+{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    position:absolute;
+    top:4rem;
+    left:28rem;
+}
+
+.sub-headings
+{
+    color: rgb(8, 137, 181);
+    font-weight:bolder;
+    font-size:2rem;
+}

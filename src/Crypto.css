@@ -1,0 +1,53 @@
+*::after,*::before
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    width:100vw;
+    height:100vh;
+}
+.cryptobody
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.Coin
+{
+  border: 3px solid white;
+  border-radius: 5%;
+  margin: 2.5rem 4rem;
+  width: 200px;
+  height: 250px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  transition: border-color 0.2s ease-in;
+  background-color: white;
+  padding: 2.5rem 0;
+}
+
+.Coin:hover,.Coin:focus
+{
+ border-color: rgb(8, 137, 181);
+}
+
+.section
+{
+  border-top: 3px solid #C00524;
+  width: 100%;
+  height:25px;
+  display:flex;
+  padding-top: 2px;
+  justify-content: center;
+}
+
+#name
+{
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
